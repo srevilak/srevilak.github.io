@@ -1,5 +1,10 @@
 .biobox {
   border-style: solid;
   border-color: black;
-  border-width: 2px
+  border-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
 }
