@@ -8,16 +8,18 @@
   padding-right: 10px;
   width: 320px;
 }
-.newssite {
-  background-color:#AFEEEE;
-  padding: 10px 10px 10px 10px;
-  margin-bottom: 20px
-
-
-
-}
 
 .newstitle {
   background-color: #48D1CC;
   padding: 20px 20px 20px 20px;
+  margin-bottom: 5px;
+}
+
+
+.newssite {
+  background-color:#AFEEEE;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 30px;
 }
