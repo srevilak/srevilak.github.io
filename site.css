@@ -24,3 +24,6 @@
   margin-right: 5px;
   float: left;
 }
+.clear {
+  clear: left;
+}
