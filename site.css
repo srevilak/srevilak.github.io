@@ -30,17 +30,20 @@
 }
 
 
-.content_container {
+.name_container {
 background-color: white;
+width: 344px;
+font-size: 2.5em;
+padding: 20px 20px 20px 20px
+
+}
+
+.content_container {
+background-color: yellow;
 max-width: 768px;
-
 }
 
-
-
-}
 .image_container {
-  background-color: blue
   height: 344px;
   width: 344px;
   float: left;
@@ -49,15 +52,6 @@ max-width: 768px;
   padding: 20px 20px 20px 20px
 }
 
-
-.name_container {
-background-color: white;
-width: 344px;
-font-size: 2.5em;
-padding: 20px 20px 20px 20px
-
-
-}
 
 .bio_container {
   background-color: white;
