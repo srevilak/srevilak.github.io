@@ -24,6 +24,17 @@
   margin-right: 5px;
   float: left;
 }
+
+.clear {
+  clear: left;
+}
+
+
+
+
+
+
+}
 .image_container {
   height: 344px;
   width: 344px;
