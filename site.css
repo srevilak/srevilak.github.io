@@ -40,12 +40,12 @@ max-width: 768px;
 
 }
 .image_container {
-  height: 344px;
-  width: 344px;
+  height: 364px;
+  width: 364px;
   float: left;
   border-radius: 50%;
   overflow: hidden;
-  padding: 20px 20px 20px 20px
+  padding: 10px 10px 10px 10px
 
 
 }
