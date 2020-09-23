@@ -24,6 +24,31 @@
   margin-right: 5px;
   float: left;
 }
-.clear {
-  clear: left;
+.image_container {
+  height: 384px;
+  width: 384px;
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+
+
+}
+
+.name_container {
+background-color: pink;
+width: 384px;
+font-size: 2.5em;
+
+
+}
+
+.bio_container {
+
+
+
+}
+
+.news_container {
+
+
 }
