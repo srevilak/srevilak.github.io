@@ -51,7 +51,7 @@ max-width: 1000px;
 }
 
 .name_container {
-background-color: pink;
+background-color: white;
 width: 344px;
 font-size: 2.5em;
 padding: 20px 20px 20px 20px
@@ -70,7 +70,7 @@ padding: 20px 20px 20px 20px
 }
 
 .news_container {
-  background-color: orange;
+  background-color: white;
   width:344px;
   padding: 20px 20px 20px 20px
 
