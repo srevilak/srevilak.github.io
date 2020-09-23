@@ -46,8 +46,9 @@ max-width: 768px;
   border-radius: 50%;
   overflow: hidden;
   padding: 20px 20px 20px 20px
-
-
+}
+.clear {
+ clear: left;
 }
 
 .name_container {
