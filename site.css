@@ -40,7 +40,7 @@ padding: 20px 20px 20px 20px
 
 .content_container {
 background-color: yellow;
-max-width: 768px;
+width: 768px;
 }
 
 .image_container {
@@ -58,17 +58,16 @@ max-width: 768px;
   width: 344px;
   float:left;
   font-size: 1.5em;
-  text-align: right;
-  padding: 20px 20px 20px 20px
-
-}
-
-.news_container {
-  background-color: white;
-  width:344px;
+  text-align: left;
   padding: 20px 20px 20px 20px
 
 }
 .clear {
   clear: left;
+}
+.news_container {
+  background-color: white;
+  width:344px;
+  padding: 20px 20px 20px 20px
+
 }
