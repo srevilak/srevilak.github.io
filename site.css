@@ -32,7 +32,7 @@
 
 .content_container {
 background-color: white;
-max-width: 1000px;
+max-width: 768px;
 
 }
 
@@ -40,12 +40,12 @@ max-width: 1000px;
 
 }
 .image_container {
-  height: 449px;
-  width: 449px;
+  height: 344px;
+  width: 344px;
   float: left;
   border-radius: 50%;
   overflow: hidden;
-  padding: 10px 10px 10px 10px
+  padding: 20px 20px 20px 20px
 
 
 }
