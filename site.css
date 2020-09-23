@@ -40,6 +40,7 @@ max-width: 768px;
 
 }
 .image_container {
+  background-color: blue
   height: 344px;
   width: 344px;
   float: left;
@@ -47,9 +48,7 @@ max-width: 768px;
   overflow: hidden;
   padding: 20px 20px 20px 20px
 }
-.clear {
- clear: left;
-}
+
 
 .name_container {
 background-color: white;
