@@ -22,7 +22,7 @@
         } else {
           description = "evening";
         }
-        document.getElementById("greeting").innerHTML = "The current temperature is " + description;
+        document.getElementById("greeting").innerHTML = "good " + description;
       }
       // get weather data from openweathermap and display the current temp
       function fetchWeather() {
@@ -32,9 +32,11 @@
           document.getElementById("weather").innerHTML = data.main.temp;
         .catch(function() {
           document.getElementById("weather").innerHTML = "";
+          document.getElementById("weather").innerHTML = "The current temperature is" + data.main.temp + "in Tucson, AZ";
         });
       }
     </script>
+
 </head>
 <body>
   <center>
