@@ -22,14 +22,14 @@
         } else {
           description = "evening";
         }
-        document.getElementById("greeting").innerHTML = "Good " + description;
+        document.getElementById("greeting").innerHTML = "The current temperature is " + description;
       }
       // get weather data from openweathermap and display the current temp
       function fetchWeather() {
         fetch("https://api.openweathermap.org/data/2.5/weather?zip=85719,US&appid=a4007b53defc7b0c7a498151a8c6432e&units=imperial")
         .then(function(resp) { return resp.json() })
         .then(function(data) {
-          document.getElementById("weather").innerHTML = data.main.temp 
+          document.getElementById("weather").innerHTML = data.main.temp;
         .catch(function() {
           document.getElementById("weather").innerHTML = "";
         });
