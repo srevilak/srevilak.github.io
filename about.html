@@ -31,7 +31,7 @@
         .then(function(data) {
           document.getElementById("weather").innerHTML = data.main.temp;
         .catch(function() {
-          document.getElementById("weather").innerHTML = "";
+          document.getElementById("weather").innerHTML = "Error in fetchWeather function";
           document.getElementById("weather").innerHTML = "The current temperature is" + data.main.temp + "in Tucson, AZ";
         });
       }

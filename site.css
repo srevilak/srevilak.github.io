@@ -71,3 +71,13 @@ width: 768px;
   padding: 20px 20px 20px 20px
 
 }
+
+#greeting {
+  font-size: 2em;
+  margin: 1em
+}
+
+#weather {
+  font-size: 2em;
+  margin: 1em;
+}
