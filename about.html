@@ -29,9 +29,9 @@
         fetch("https://api.openweathermap.org/data/2.5/weather?zip=85719,US&appid=a4007b53defc7b0c7a498151a8c6432e&units=imperial")
         .then(function(resp) { return resp.json() })
         .then(function(data) {
-          document.getElementById("weather").innerHTML = " The current temperature is " + data.main.temp + "<span>&#176;</span> In Tucson, Ariz." ;
+          document.getElementById("weather").innerHTML = " The current temperature is " + data.main.temp + "<span>&#176;</span> In Tucson, Ariz." 
         .catch(function() {
-          document.getElementById("weather").innerHTML = "Error in fetchWeather function";
+          document.getElementById("weather").innerHTML = "Error in fetchWeather function"
         });
       }
   </script>
