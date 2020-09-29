@@ -4,6 +4,7 @@
   <title> About Me</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="site.css">
+
   <script>
       window.onload = function() {
         // functions that run after page loads
@@ -29,9 +30,9 @@
         fetch("https://api.openweathermap.org/data/2.5/weather?zip=85719,US&appid=a4007b53defc7b0c7a498151a8c6432e&units=imperial")
         .then(function(resp) { return resp.json() })
         .then(function(data) {
-          document.getElementById("weather").innerHTML = " The current temperature is " + data.main.temp + "<span>&#176;</span> In Tucson, Ariz." 
+          document.getElementById("weather").innerHTML = " The current temperature is " + data.main.temp + "<span>&#176;</span> In Tucson, Ariz.";
         .catch(function() {
-          document.getElementById("weather").innerHTML = "Error in fetchWeather function"
+          document.getElementById("weather").innerHTML = "Error in fetchWeather function";
         });
       }
   </script>
