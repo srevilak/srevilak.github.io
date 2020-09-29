@@ -22,14 +22,14 @@
         } else {
           description = "evening";
         }
-        document.getElementById("greeting").innerHTML = "good " + description;
+        document.getElementById("greeting").innerHTML = " good " + description;
       }
       // get weather data from openweathermap and display the current temp
       function fetchWeather() {
         fetch("https://api.openweathermap.org/data/2.5/weather?zip=85719,US&appid=a4007b53defc7b0c7a498151a8c6432e&units=imperial")
         .then(function(resp) { return resp.json() })
         .then(function(data) {
-          document.getElementById("weather").innerHTML = "The current temperature is" + data.main.temp <span>&#176;</span> + "In Tucson, AZ";
+          document.getElementById("weather").innerHTML = " The current temperature is " + data.main.temp <span>&#176;</span> + " In Tucson, Ariz." ;
         .catch(function() {
           document.getElementById("weather").innerHTML = "Error in fetchWeather function";
         });
@@ -44,7 +44,6 @@
 
 <div id="greeting"></div>
 <div id="weather"></div>
-<div id="greeting2"></div>
 
 <div class="content_container">
   <div class="image_container">
