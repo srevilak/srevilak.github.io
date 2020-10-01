@@ -85,8 +85,7 @@ width: 768px;
 #rss_items {
 border: 1px solid pink;
 padding: 5px 5px 5px 5px
-margin: 5px 5px 5px 5px
-
+margin: 5px 5px 5px 5px;
 }
 
 .rss_title {
