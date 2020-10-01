@@ -37,6 +37,27 @@
       }
     </script>
     <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
+    <script>
+    function displayRSSFeed() {
+          // fetch an RSS feed and display the title and description
+          var origURL = 'https://www.boston.com/tag/world-news/feed';
+          // feednami doesn't like & so replace with %26
+          var replacedURL = origURL.replace(/&/g, "%26");
+          feednami.load(replacedURL,function(result) {
+            if (result.error) {
+              console.log(result.error);
+            } else {
+              var entries = result.feed.entries
+              for (var i = 0; i < entries.length; i++) {
+                var entry = entries[i];
+                let divElement = '<div class="rss_title"><a href="' + entry.link + '" target="_blank">' + entry.title + '</a></div><div class="rss_description">' + entry.description + '</div>';
+                document.getElementById("rss_items").innerHTML += divElement;
+              }
+            }
+          });
+        }
+
+    </script>
 </head>
 <body>
   <center>
@@ -68,31 +89,11 @@
      <div class="newssite"><a href="https://www.bloomberg.com/middleeast" target="_blank">Bloomberg</a></div>
      <div class="newssite"><a href="https://www.ft.com/" target="_blank">Financial Times</a></div>
   </div>
-</center>
 
-<script>
-function displayRSSFeed() {
-      // fetch an RSS feed and display the title and description
-      var origURL = 'https://www.boston.com/tag/world-news/feed';
-      // feednami doesn't like & so replace with %26
-      var replacedURL = origURL.replace(/&/g, "%26");
-      feednami.load(replacedURL,function(result) {
-        if (result.error) {
-          console.log(result.error);
-        } else {
-          var entries = result.feed.entries
-          for (var i = 0; i < entries.length; i++) {
-            var entry = entries[i];
-            let divElement = '<div class="rss_title"><a href="' + entry.link + '" target="_blank">' + entry.title + '</a></div><div class="rss_description">' + entry.description + '</div>'
-            document.getElementById("rss_items").innerHTML += divElement
-          }
-        }
-      });
-    }
-
-</script>
 
 <div id="rss_items"></div>
 
+
+</center>
 </body>
 </html>
