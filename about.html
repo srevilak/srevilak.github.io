@@ -4,11 +4,13 @@
   <title> About Me</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="site.css">
+  <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
   <script>
       window.onload = function() {
         // functions that run after page loads
         displayGreeting();
         fetchWeather();
+        displayRSSFeed();
       }
       // display good morning, afternoon or evening based on the time
       function displayGreeting() {
@@ -36,7 +38,7 @@
         });
       }
     </script>
-    <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
+
     <script>
     function displayRSSFeed() {
           // fetch an RSS feed and display the title and description
