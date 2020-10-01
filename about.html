@@ -73,7 +73,7 @@
 <script>
 function displayRSSFeed() {
       // fetch an RSS feed and display the title and description
-      var origURL = 'https://www.reforma.com/rss/portada.xml';
+      var origURL = 'https://www.boston.com/tag/world-news/feed';
       // feednami doesn't like & so replace with %26
       var replacedURL = origURL.replace(/&/g, "%26");
       feednami.load(replacedURL,function(result) {
@@ -91,6 +91,7 @@ function displayRSSFeed() {
     }
 
 </script>
+
 <div id="rss_items"></div>
 <div class="rss_title"></div>
 <div class="rss_description"></div>
