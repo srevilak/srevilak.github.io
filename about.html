@@ -40,7 +40,7 @@
     <script>
     function displayRSSFeed() {
           // fetch an RSS feed and display the title and description
-          var origURL = 'https://www.boston.com/tag/world-news/feed';
+          var origURL = "http://feeds.washingtonpost.com/rss/rss_fact-checker?itid=lk_inline_manual_5";
           // feednami doesn't like & so replace with %26
           var replacedURL = origURL.replace(/&/g, "%26");
           feednami.load(replacedURL,function(result) {
