@@ -107,23 +107,26 @@ font-size: .5em;
 
 #cell {
   border: 5px solid pink;
+
 }
 
 .cell_name {
   font-size: 1em;
+  margin: 1em;
 }
 
 .cell_address {
 font-size: .5em;
+padding: 5px 5px 5px 5px;
 
 }
 
 .cell_url {
 font-size: .5em;
-
+padding: 5px 5px 5px 5px;
 }
 
 .cell_phone {
 font-size: .5em;
-
+padding: 5px 5px 5px 5px;
 }
