@@ -105,12 +105,16 @@ padding-bottom: 25px;
 font-size: .5em;
 }
 
-#cell {
+.cell {
   border: 5px solid pink;
   padding: 5px 5px 5px 5px;
-  margin: 10px 10px 10px 10px
+  margin: 10px 10px 10px 10px;
+  float: left;
 }
 
+.clear{
+  clear:left;
+}
 .cell_name {
   font-size: 1em;
 }
