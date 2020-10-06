@@ -29,7 +29,7 @@
 .newssite {
   background-color:#FF89A9;
   padding: 20px 20px 20px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   margin-top: 5px;
   margin-right: 5px;
   float: left;
@@ -87,7 +87,7 @@ width: 768px;
 #rss_items {
 border: 10px solid pink;
 padding: 10px 10px 10px 10px;
-margin: 20px 20px 20px 20px;
+margin: 10px 10px 10px 10px;
 width: 320px;
 float: left;
 }
@@ -96,7 +96,7 @@ float: left;
 }
 
 .rss_title {
-font-size: 2em;
+font-size: 1em;
 }
 
 .rss_description {
