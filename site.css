@@ -104,3 +104,26 @@ padding-top: 10px;
 padding-bottom: 25px;
 font-size: .5em;
 }
+
+#cell {
+  border: 5px solid pink;
+}
+
+.cell_name {
+  font-size: 1em;
+}
+
+.cell_address {
+font-size: .5em;
+
+}
+
+.cell_url {
+font-size: .5em;
+
+}
+
+.cell_phone {
+font-size: .5em;
+
+}
