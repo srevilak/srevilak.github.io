@@ -76,7 +76,7 @@ width: 768px;
 .news_container {
   background-color: white;
   width:344px;
-  padding: 20px 20px 20px 20px
+  padding: 50px 50px 50px 50px
 
 }
 .clear {
@@ -96,13 +96,13 @@ float: left;
 }
 
 .rss_title {
-font-size: 1em;
+font-size: 2em;
 }
 
 .rss_description {
 padding-top: 10px;
 padding-bottom: 25px;
-font-size: .5em;
+font-size: 1em;
 }
 
 .cell {
@@ -116,11 +116,11 @@ font-size: .5em;
   clear:left;
 }
 .cell_name {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 .cell_address {
-font-size: .5em;
+font-size: 1em;
 padding: 5px 5px 5px 5px;
 
 }
