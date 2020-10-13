@@ -14,8 +14,8 @@
         displayGreeting();
         fetchWeather();
         displayRSSFeed();
-        listSheet() ;
-        drawMap () ;
+        listSheet(mymap) ;
+        var mymap = drawMap () ;
         addPin () ;
       }
       // display good morning, afternoon or evening based on the time
@@ -67,7 +67,7 @@
 
     </script>
     <script>
-    function listSheet() {
+    function listSheet(mymap) {
         // list google sheet rows
         fetch('https://api.sheetson.com/v2/sheets/Sheet1?no-cache=true', {
           withCredentials: true,
@@ -83,6 +83,7 @@
             var result = data.results[i];
             let divElement = '<div class="cell">' + '<div class="cell_name">' + result.name + '</div>' + '<div class="cell_address">' + result.address + '</div>' + '<div class="cell_url"><a href="' + result.url + '">' + result.url + '</a></div>' + '<div class="cell_phone">' + result.phone + '</div>' + '</div>';
             document.getElementById("sheet").innerHTML += divElement;
+            addPin(mymap, result.lat, result.lon, '<strong>' + result.name + '</strong>');
           }
         })
         .catch(function() {
