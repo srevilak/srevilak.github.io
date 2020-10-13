@@ -103,11 +103,13 @@
           accessToken: 'pk.eyJ1Ijoic3JldmlsYWsiLCJhIjoiY2tnOGJxeXFwMGZvejJwcW82ZjNncjUyMyJ9.0eZffC3kriYgsk876gcuDg'
       }).addTo(mymap);
       return mymap;
+      var marker = L.marker([51.5, -0.09]).addTo(mymap);
     }
 
     function addPin(mymap, lat, lon, name) {
       // add a pin to mymap at lat, lon with a popup
       L.marker([lat, lon]).addTo(mymap).bindPopup(name);
+      marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
     }
 
     </script>
