@@ -134,3 +134,8 @@ padding: 5px 5px 5px 5px;
 font-size: .5em;
 padding: 5px 5px 5px 5px;
 }
+
+#mapid {
+  height: 640px;
+  width: 640px;
+}
