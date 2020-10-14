@@ -84,8 +84,8 @@
             let divElement = '<div class="cell">' + '<div class="cell_name">' + result.name + '</div>' + '<div class="cell_address">' + result.address + '</div>' + '<div class="cell_url"><a href="' + result.url + '">' + result.url + '</a></div>' + '<div class="cell_phone">' + result.phone + '</div>' + '</div>';
             document.getElementById("sheet").innerHTML += divElement;
 
-            addPin(mymap, result.lat, result.lon, '<strong>' + result.name + '</strong>');
-            
+            //addPin(mymap, result.lat, result.lon, '<strong>' + result.name + '</strong>');
+
           }
         })
         .catch(function() {
@@ -105,7 +105,7 @@
           zoomOffset: -1,
           accessToken: 'pk.eyJ1Ijoic3JldmlsYWsiLCJhIjoiY2tnOGJxeXFwMGZvejJwcW82ZjNncjUyMyJ9.0eZffC3kriYgsk876gcuDg'
       }).addTo(mymap);
-
+    }
       return mymap;
     }
 
