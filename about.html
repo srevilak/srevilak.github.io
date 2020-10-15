@@ -16,7 +16,7 @@
         displayRSSFeed();
         listSheet(mymap) ;
         var mymap = drawMap () ;
-        addPin (mymap) ;
+        addPin () ;
       }
       // display good morning, afternoon or evening based on the time
       function displayGreeting() {
@@ -85,7 +85,7 @@
             document.getElementById("sheet").innerHTML += divElement;
 
 
-            addPin(mymap, result.lat, result.lon, '<strong>' + result.name + '</strong><br>' + result.hours);
+            function addPin(mymap, result.lat, result.lon, '<strong>' + result.name + '</strong><br>' + result.hours);
 
           }
         })
