@@ -15,7 +15,7 @@
         fetchWeather();
         displayRSSFeed();
         listSheet(mymap) ;
-        drawMap () ;
+        var mymap = drawMap () ;
         addPin () ;
       }
       // display good morning, afternoon or evening based on the time
@@ -103,6 +103,7 @@
           zoomOffset: -1,
           accessToken: 'pk.eyJ1Ijoic3JldmlsYWsiLCJhIjoiY2tnOGJxeXFwMGZvejJwcW82ZjNncjUyMyJ9.0eZffC3kriYgsk876gcuDg'
       }).addTo(mymap);
+      return mymap;
     }
 function addPin(mymap, lat, lon, name) {
   // add a pin to mymap at lat, lon with a popup
