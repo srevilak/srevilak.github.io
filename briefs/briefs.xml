@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Sofia´s story briefing</title>
+  <link>https://srevilak.github.io/about.html</link>
+  <description>Summary of my two most recent stories</description>
+  <item>
+    <pubDate>Mon, 19 Oct 2020 09:00:00 -0700</pubDate>
+    <title>Feature Story of Taekwondo in Dubai</title>
+    <link>https://srevilak.github.io/about.html</link>
+    <description>Feature story description</description>
+    <enclosure url="https://srevilak.github.io/briefs/Feature.mp3" type="audio/mpeg" length="541,590"></enclosure>
+    <guid isPermaLink="false">https://srevilak.github.io/briefs/Feature.mp3</guid>
+  </item>
+  <item>
+    <pubDate>Mon, 19 Oct 2020 09:00:00 -0700</pubDate>
+    <title>CIBS</title>
+    <link>https://srevilak.github.io/about.html</link>
+    <description>CIBS story description</description>
+    <enclosure url="https://srevilak.github.io/briefs/CIBS.mp3" type="audio/mpeg" length="547,442"></enclosure>
+    <guid isPermaLink="false">https://srevilak.github.io/briefs/CIBS.mp3</guid>
+  </item>
+</channel>
+</rss>
