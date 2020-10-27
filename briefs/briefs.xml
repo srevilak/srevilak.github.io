@@ -9,7 +9,7 @@
     <title>Feature Story of Taekwondo in Dubai</title>
     <link>https://srevilak.github.io/about.html</link>
     <description>Feature story description</description>
-    <enclosure url="https://srevilak.github.io/briefs/Feature.mp3" type="audio/mpeg" length="541,590"></enclosure>
+    <enclosure url="https://srevilak.github.io/briefs/Feature.mp3" type="audio/mpeg" length="541590"></enclosure>
     <guid isPermaLink="false">https://srevilak.github.io/briefs/Feature.mp3</guid>
   </item>
   <item>
@@ -17,7 +17,7 @@
     <title>CIBS</title>
     <link>https://srevilak.github.io/about.html</link>
     <description>CIBS story description</description>
-    <enclosure url="https://srevilak.github.io/briefs/CIBS.mp3" type="audio/mpeg" length="547,442"></enclosure>
+    <enclosure url="https://srevilak.github.io/briefs/CIBS.mp3" type="audio/mpeg" length="547442"></enclosure>
     <guid isPermaLink="false">https://srevilak.github.io/briefs/CIBS.mp3</guid>
   </item>
 </channel>
